@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body {
+    background-color: var(--dark-red);
+    color: var(--cream-white);
+}
+
+:root {
+    --dark-red: #2C0001;
+    --medium-red: #8B211D;
+    --ocre-yellow: #FDB263;
+    --cream-white: #EADFD3;
+}
