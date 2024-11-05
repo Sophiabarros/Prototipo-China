@@ -1,0 +1,57 @@
+:root {
+    --dark-red: #2C0001;
+    --medium-red: #8B211D;
+    --ocre-yellow: #FDB263;
+    --cream-white: #EADFD3;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 5rem;
+    height: 6rem;
+}
+
+.icon {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone img {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+}
+
+header a {
+  
+    color: var(--ocre-yellow);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.menu {
+    margin-left: 13rem;
+    padding-inline: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+header ul {
+    display: flex;
+    gap: 2rem;
+}
+
+header ul,
+header li {
+    list-style: none;
+}
+
+header a.active {
+    color: var(--cream-white);
+}
