@@ -10,6 +10,11 @@ body {
     color: var(--cream-white);
 }
 
+
+.decoracao {
+    height: 10rem;
+}
+
 :root {
     --dark-red: #2C0001;
     --medium-red: #8B211D;

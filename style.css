@@ -4,7 +4,7 @@
 .principal {
     margin-top: 1rem;
     margin-bottom: 5rem;
-    border: 1px solid;
+    border: 1px solid var(--dark-red);
     margin-inline: auto;
     background-image: url(./img/DIV\ -\ Tema.png);
     background-size: cover;
