@@ -2,8 +2,7 @@
 @import "./global-css/header.css";
 
 .principal {
-    margin-top: 1rem;
-    margin-bottom: 5rem;
+    margin-inline: auto;
     border: 1px solid var(--dark-red);
     margin-inline: auto;
     background-image: url(./img/DIV\ -\ Tema.png);
