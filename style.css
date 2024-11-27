@@ -3,6 +3,7 @@
 
 .principal {
     margin-inline: auto;
+    margin-block: auto;
     border: 1px solid var(--dark-red);
     margin-inline: auto;
     background-image: url(./img/DIV\ -\ Tema.png);
