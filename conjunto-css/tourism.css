@@ -1,2 +1,67 @@
 @import "../global-css/global.css";
 @import "../global-css/header.css";
+
+h1{
+    padding-inline: 2rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    line-height: 3rem;
+}
+
+.principal{
+    display: flex;
+    gap: 1rem;
+    border: 1px solid var(--dark-red);
+    margin-inline: auto;
+    background-image: url(../img/DIV\ -\ Introdução\ &\ Republica\ Popular.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 29rem;
+    width: 60rem;
+    border-radius: 1rem;
+    max-width: 80rem;
+    max-height: 90rem;
+    margin-inline: auto;
+    margin-block: 1rem;
+}
+
+.principal-conteudo{
+    margin-inline: 2rem;
+    margin-block: auto;
+    display: flex;
+    flex-direction: column;
+    width: 45rem;
+    height: 25rem;
+}
+
+.pricipal-img-conj1{
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+
+.principal-img-conj2{
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.principal-conteudo {
+    width: 20rem;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    margin-block: auto;
+    gap: 2rem;
+}
+
+.img img{
+    height: 10rem;
+    width: 15rem;
+    border-radius: 1rem;
+}
